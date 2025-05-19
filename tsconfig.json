@@ -1,0 +1,32 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "baseUrl": "./",
+        "outDir": "./dist",
+        "forceConsistentCasingInFileNames": true,
+        "target": "ES2022",
+        "module": "ESNext",
+        "declaration": false,
+        "strict": true,
+        "noImplicitAny": false,
+        "noImplicitThis": false,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "sourceMap": true,
+        "downlevelIteration": true,
+        "experimentalDecorators": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "importHelpers": true,
+        "skipDefaultLibCheck": true,
+        "strictNullChecks": false,
+        "lib": [
+            "ES2022",
+            "DOM"
+        ],
+        "useDefineForClassFields": false
+    },
+    "exclude": ["node_modules", "dist",".vscode"]
+}
