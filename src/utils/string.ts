@@ -1,5 +1,5 @@
-export class StringUtils {
-  public static levenshteinDistance(a: string, b: string): number {
+
+  export function levenshteinDistance(a: string, b: string): number {
     const matrix: any = [];
     for (let i = 0; i <= b.length; i++) {
       matrix[i] = [i];
@@ -22,4 +22,4 @@ export class StringUtils {
     }
     return matrix[b.length][a.length];
   }
-}
+

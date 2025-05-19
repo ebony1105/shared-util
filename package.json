@@ -1,13 +1,17 @@
 {
   "name": "shared-util",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "npm publish package demo",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc -p tsconfig.json",
     "prepublishOnly": "npm run build",
+    "publish": "npm run build && npm publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ebony1105/shared-util.git"
