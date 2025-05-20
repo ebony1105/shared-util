@@ -1,6 +1,6 @@
 {
   "name": "shared-util",
-  "version": "1.3.5",
+  "version": "1.3.6",
   "description": "npm publish package demo",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
